@@ -49,7 +49,7 @@ export const List = () => {
           <TableCell align="center">amitsafiData@gmail.com</TableCell>
           <TableCell align="center">
            <Tooltip title="View">
-            <IconButton><Link to="/view/1"><VisibilityIcon color="primary" /></Link></IconButton>
+            <IconButton><Link to="/view/1"><VisibilityIcon color="primary"/></Link></IconButton>
            </Tooltip>
            <Tooltip title="Edit">
             <IconButton><Link to="/edit/1"><EditIcon /></Link></IconButton>

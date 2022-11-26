@@ -1,20 +1,10 @@
 import {
-  Typography, Box, Grid, TableContainer, Table, TableBody, TableCell, TableHead, TableRow, Paper
-  , Tooltip, TextField, Button, IconButton
+  Typography, Box, Grid,
+  TextField, Button
 } from '@mui/material/'
-import VisibilityIcon from '@mui/icons-material/Visibility'
-import EditIcon from '@mui/icons-material/Edit'
-import DeleteIcon from '@mui/icons-material/Delete'
-import { deepPurple, green, orange } from '@mui/material/colors'
-import { makeStyles, Theme, createStyles } from '@mui/material/styles';
-import {Link} from 'react-router-dom'
-import { List } from '../student/List'
-// const useStyles:any=makeStyles({
-//   headingColor:{
-//     backgroundColor: deepPurple[400],
-//     color:"white"
-//   }
-// })
+
+import { deepPurple, green, } from '@mui/material/colors'
+
 export const Home = () => {
   return (
     <>
@@ -45,12 +35,12 @@ export const Home = () => {
             </Box>
           </form>
         </Grid>
-        
+
         <Grid item md={6} xs={12} >
-           <List/>
-          
+          <List />
+
         </Grid>
-        </Grid>    
+      </Grid>
     </>
   )
 }
