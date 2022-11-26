@@ -1,0 +1,24 @@
+{
+  "students": [
+      {
+          "id": 1,
+          "name": "json-server1",
+          "address": "typicode1"
+      },
+      {
+          "id": 2,
+          "name": "json-server2",
+          "address": "typicode2"
+      },
+      {
+          "id": 3,
+          "name": "json-server3",
+          "address": "typicode3"
+      },
+      {
+          "id": 4,
+          "name": "json-server4",
+          "address": "typicode4"
+      }
+  ]
+}
