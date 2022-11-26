@@ -3,22 +3,27 @@
       {
           "id": 1,
           "name": "json-server1",
-          "address": "typicode1"
+          "email": "typicode1@gmail.com"
       },
       {
           "id": 2,
           "name": "json-server2",
-          "address": "typicode2"
+          "email": "typicode2@gmail.com"
       },
       {
           "id": 3,
           "name": "json-server3",
-          "address": "typicode3"
+          "email": "typicode3@gmail.com"
       },
       {
           "id": 4,
           "name": "json-server4",
-          "address": "typicode4"
-      }
+          "email": "typicode4@gmail.com"
+      },
+      {
+        "id": 5,
+        "name": "json-server5",
+        "email": "typicode5@gmail.com"
+    }
   ]
 }

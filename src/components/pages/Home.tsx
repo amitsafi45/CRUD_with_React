@@ -3,7 +3,9 @@ import {
   TextField, Button
 } from '@mui/material/'
 
+
 import { deepPurple, green, } from '@mui/material/colors'
+import { List } from '../student/List'
 
 export const Home = () => {
   return (
